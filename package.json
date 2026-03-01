@@ -1,0 +1,47 @@
+{
+  "name": "regex-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for testing, explaining, and generating regular expressions",
+  "type": "module",
+  "bin": {
+    "regex-mcp": "./build/index.js"
+  },
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "files": [
+    "build"
+  ],
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "regex",
+    "regular-expressions",
+    "model-context-protocol",
+    "claude",
+    "cursor",
+    "developer-tools"
+  ],
+  "author": "MuhammadAliShahzad",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MuhammadAliShahzad/regex-mcp.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@vitest/coverage-v8": "^4.0.18",
+    "typescript": "^5.7.0",
+    "vitest": "^4.0.18"
+  }
+}
