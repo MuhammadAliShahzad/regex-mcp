@@ -1,6 +1,6 @@
 {
-  "name": "regex-mcp",
-  "version": "1.0.0",
+  "name": "@muhammadalishahzad/regex-mcp",
+  "version": "1.1.0",
   "description": "MCP server for testing, explaining, and generating regular expressions",
   "type": "module",
   "bin": {

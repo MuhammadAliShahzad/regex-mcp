@@ -1,6 +1,6 @@
 # regex-mcp
 
-[![npm version](https://img.shields.io/npm/v/regex-mcp.svg)](https://www.npmjs.com/package/regex-mcp)
+[![npm version](https://img.shields.io/npm/v/@muhammadalishahzad/regex-mcp.svg)](https://www.npmjs.com/package/@muhammadalishahzad/regex-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 MCP server for testing, explaining, debugging, and generating regular expressions. Works with any MCP client — Claude Code, Cursor, VS Code Copilot, Windsurf, and more.
@@ -21,7 +21,7 @@ MCP server for testing, explaining, debugging, and generating regular expression
 ### Claude Code
 
 ```bash
-claude mcp add regex-mcp -- npx -y regex-mcp
+claude mcp add @muhammadalishahzad/regex-mcp -- npx -y @muhammadalishahzad/regex-mcp
 ```
 
 ### Claude Desktop
@@ -33,7 +33,7 @@ Add to `~/Library/Application Support/Claude/claude_desktop_config.json`:
   "mcpServers": {
     "regex": {
       "command": "npx",
-      "args": ["-y", "regex-mcp"]
+      "args": ["-y", "@muhammadalishahzad/regex-mcp"]
     }
   }
 }
@@ -48,7 +48,7 @@ Add to `.cursor/mcp.json`:
   "mcpServers": {
     "regex": {
       "command": "npx",
-      "args": ["-y", "regex-mcp"]
+      "args": ["-y", "@muhammadalishahzad/regex-mcp"]
     }
   }
 }
@@ -63,7 +63,7 @@ Add to `.vscode/mcp.json`:
   "servers": {
     "regex": {
       "command": "npx",
-      "args": ["-y", "regex-mcp"]
+      "args": ["-y", "@muhammadalishahzad/regex-mcp"]
     }
   }
 }
@@ -78,7 +78,7 @@ Add to `~/.codeium/windsurf/mcp_config.json`:
   "mcpServers": {
     "regex": {
       "command": "npx",
-      "args": ["-y", "regex-mcp"]
+      "args": ["-y", "@muhammadalishahzad/regex-mcp"]
     }
   }
 }
